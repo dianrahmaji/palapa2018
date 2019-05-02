@@ -1,0 +1,83 @@
+.main-background{
+   background-color: #FFFFFF;
+}
+
+.nav-text{
+   color: #FFFFFF;
+}
+
+body{
+   overflow-x: hidden;
+}
+
+.btn-border-blue{
+   border: 1px solid #59bede;
+}
+
+.text-color-1{
+   color: #59bede;
+}
+
+.text-color-2{
+   color: #da3088;
+}
+
+.img-section{
+   display: inherit;
+}
+
+.text-title{
+   font-size: 3rem;
+}
+
+.text-description{
+   font-size: 16px;
+}
+
+/* untuk hover */
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a.uk-open, .uk-navbar-nav > li > a:focus {
+	color: white;
+	outline: 0;
+}
+
+/* untuk display */
+.uk-navbar-nav > li > a {
+	color: #747ad6;
+	text-transform: uppercase;
+	transition: .1s ease-in-out;
+	transition-property: color,background-color;
+}
+
+@media only screen and (max-width: 480px){
+   .uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      height: 80px;
+      padding: 0 15px;
+      font-size: .75rem;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      text-decoration: none;
+   }
+
+   .fa-4x {
+      font-size: 1.5em;
+  }
+
+  .text-title{
+     font-size: 1.2em;
+  }
+
+  .text-description{
+     font-size: 8px;
+  }
+
+  .img-section{
+      display: none;
+   }
+
+   body{
+      overflow-x: hidden;
+   }
+}

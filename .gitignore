@@ -1,0 +1,8 @@
+/src/node_modules
+/node_modules
+/main.js
+/package.json
+/package-lock.json
+.cfignore
+manifest.yml
+/doc-lite.txt

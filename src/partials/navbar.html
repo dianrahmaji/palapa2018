@@ -1,0 +1,114 @@
+<!-- nav -->
+<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 5">
+	<nav class="uk-navbar-container" style="background: #073c64">
+		<div class="uk-container">
+			<div uk-navbar>
+				<div class="uk-navbar-left logo-width">
+					<a class="uk-navbar-item uk-logo" href="index.html">
+						<img src="public/img/logo-navbar.png">
+					</a>
+				</div>
+
+				<div class="uk-navbar-right">
+					<ul class="uk-navbar-nav uk-visible@l" style="color: white;">
+						<li>
+							<a href="index.html">Beranda</a>
+						</li>
+						<li>
+							<a href="http://ppsmb.ugm.ac.id/gugus" target="_blank">Cek Gugus</a>
+						</li>
+						<li>
+							<a href="peta/index.html">Peta UGM</a>
+						</li>
+						<!-- <li>
+							<a href="/gugus">Cek Gugus</a>
+						</li> -->
+						<li>
+							<a href="index.html#berita">Informasi & Berita </a>
+						</li>
+						<li>
+							<a href="pilih-hari.html">Agenda, Materi, Atribut & Penugasan</a>
+						</li>
+						<li>
+							<a href="#">Galeri</a>
+							<div class="uk-navbar-dropdown">
+								<ul class="uk-nav uk-navbar-dropdown-nav">
+									<li>
+										<a href="galeri/dokumentasi.html">Foto</a>
+									</li>
+									<li>
+										<a href="galeri/video.html">Video</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<!-- <li>
+							<a href="index.html#berita">Informasi dan Berita Terkini</a>
+						</li> -->
+						<li>
+							<a href="#kontak" uk-scroll>Kontak</a>
+						</li>
+						<li>
+							<a href="faq.html" >FaQ</a>
+						</li>
+					</ul>
+
+					<a class="uk-navbar-toggle uk-hidden@l" uk-navbar-toggle-icon href="#modal-menu" uk-toggle></a>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div id="modal-menu" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-default" type="button" uk-close></button>
+			<div class="uk-modal-header">
+				<h2 class="uk-modal-title">Menu</h2>
+			</div>
+			<div class="uk-modal-body">
+				<ul class="uk-list uk-list-striped">
+					<li>
+						<a href="index.html">Beranda</a>
+					</li>
+					<li>
+						<a href="http://ppsmb.ugm.ac.id/gugus" target="_blank">Cek Gugus</a>
+					</li>
+					<li>
+						<a href="peta/index.html">Peta UGM</a>
+					</li>
+					<!-- <li>
+						<a href="/gugus">Cek Gugus</a>
+					</li> -->
+					<li>
+						<a href="index.html#berita">Informasi dan Berita Terkini</a>
+					</li>
+					<li>
+						<a href="pilih-hari.html">Agenda - Materi - Atribut & Penugasan</a>
+					</li>
+					<li>
+						<a href="#">Galeri</a>
+						<ul class="uk-list uk-list-divider">
+							<li>
+								<a href="galeri/dokumentasi.html">Foto</a>
+							</li>
+							<li>
+								<a href="galeri/video.html">Video</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#kontak" uk-scroll>Kontak</a>
+					</li>
+					<li>
+						<a href="faq.html" >FaQ</a>
+					</li>
+				</ul>
+			</div>
+			<div class="uk-modal-footer uk-text-right">
+				<button class="uk-button uk-button-default uk-modal-close" type="button">Tutup</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end nav -->
